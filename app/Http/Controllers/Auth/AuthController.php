@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace BlogYeye\Http\Controllers\Auth;
 
-use App\User;
+use BlogYeye\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use BlogYeye\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
