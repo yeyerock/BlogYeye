@@ -1,0 +1,37 @@
+------CURSO LARAVEL-----
+
+
+-----INSTALAR LARAVEL-----
+1.-Tener instalado PHP
+2.-Tener Composer
+3.-Ejecuyar el siguiente comando
+{
+	composer global require "laravel/installer"
+}
+
+-----CREAR PROYECTO LARAVEL-----
+1.-Posicionarnos en la carpteta donde queremos nuestro proyecto
+2.-Ejecutar esto
+{
+	composer create-project laravel/laravel --prefer-dist
+}
+
+3.-Iniciar servidor de laravel
+{
+	php artisan serve
+}
+4.-Detener servidor de laravel
+{
+	ctrl+c
+}
+
+----CAMBIAR NOMBRE A NUESTRA APP DE PHP-----
+php artisan app:name BlogYeye
+
+
+-----CREAR MUCHOS CONTROLLERS DE UNA MISMA CATEGORÍA-------
+php artisan make:controller nombreController
+
+---------CREAR NUESTRO CONTROLLER------------
+Esto va en el archivo routes.php
+Route:resource('nombre','nombreController');
